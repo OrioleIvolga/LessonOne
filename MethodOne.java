@@ -14,10 +14,9 @@ public class MethodOne {
         return sum;
     }
 
-   /* private static void HelloUser (String firstname) {
-        String firstname;
+   private static void HelloUser (String firstname) {
         System.out.println("Добро пожаловать, " + firstname);
-    }*/
+    }
 
 
 
@@ -26,7 +25,7 @@ public class MethodOne {
         System.out.println("Как Вас зовут?");
         Scanner scanner = new Scanner(System.in);
         String firstname = scanner.next();
-      /*  HelloUser (firstname);*/
+        HelloUser (firstname);
         System.out.println("Введите первое число (a)");
         scanner = new Scanner(System.in);
         int a = scanner.nextInt();
